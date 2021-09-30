@@ -1,0 +1,320 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+}
+nav {
+  margin-bottom: 20px;
+}
+hr {
+  width: 15%;
+  border-width : 5px;
+  border-style : dotted none none;
+  margin: auto;
+  border-color: black;
+}
+.hov-settings {
+  background-color: green;
+  padding: 0 10%;
+}
+/* for the hr at the contactme section */
+.hide {
+  visibility: hidden;
+}
+/* For animation of different sections */
+.hidden {
+  opacity: 0;
+}
+.hidden1 {
+  opacity: 0;
+}
+@keyframes fade-in {
+  from {opacity: 0; transition: scale(.7,.7)}
+  to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 2s;
+}
+/* Customized margins at the end a nd begining of each sections */
+.white-space {
+  height: 5rem;
+  background-color: white;
+}
+.black-space {
+  height: 5rem;
+  background-color: black;
+}
+/* Color for each section */
+.colored {
+  background-color: black;
+  color: white;
+}
+.uncolored {
+  background-color: white;
+}
+/* Customized margin at bottom of each hr */
+.rule {
+  margin-bottom: 60px;
+}
+/* Navigation Bar */
+.navbar-toggler {
+  border-color: white;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.nav-link:hover {
+  border-bottom: solid 2px;
+}
+.nav-link {
+  margin-left: 50px;
+  color: white;
+}
+.navbar-br {
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+}
+/* Title section */
+.intro {
+  text-align: left;
+}
+.introduction {
+  padding: 15% 15px;
+}
+.profile-img {
+  width: 100%;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+.img-div {
+  border-radius: 20px;
+}
+/* About section */
+.about-p {
+  text-align: left;
+  font-size: 25px;
+}
+.about-img {
+  width: 100%;
+  border-radius: 20px;
+  height: 450px;
+}
+/* Skills Sections */
+.skill-card {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 200px;
+}
+.skill-card2 {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 250px;
+}
+.skill-card p {
+  font-size: 100%;
+}
+.percent-bar {
+  color: white;
+  border-radius: 20px;
+  height: 5px;
+  border: solid 1px;
+  border-color: black;
+}
+.percent {
+  background-color: black;
+  height: 3px;
+}
+.html {
+  width: 90%;
+}
+.css {
+  width: 80%;
+}
+.js {
+  width: 70%;
+}
+.jquery {
+  width: 70%;
+}
+.node {
+  width: 90%;
+}
+.python {
+  width: 75%;
+}
+.java {
+  width: 60%;
+}
+.visual-b {
+  width: 90%;
+}
+.cpp {
+  width: 70%;
+}
+.percentage {
+  margin-bottom: 0px;
+  text-align: right;
+  font-size: small;
+}
+.tool-title {
+  margin-bottom: 0;
+}
+.tool-sub {
+  text-align: left;
+  margin: 0;
+}
+/* Projects Section */
+span {
+  background-color: black;
+}
+.proj-img {
+  width: 60%;
+  border-radius: 100%;
+}
+.items {
+  background-color: black;
+  color: white;
+  padding: 5%;
+  margin: auto 30%;
+  border-radius: 15px;
+}
+/* Contact me Section */
+form {
+  text-align: left;
+}
+.txt-box {
+  margin-left: 20px;
+  width: 100%;
+}
+.submit-btn {
+  width: 100px;
+}
+.form-space {
+  height: 20px;
+}
+.comment {
+  width: 100px;
+}
+.copy-r {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 10%;
+  font-size: 15px;
+  color: grey;
+}
+.contact-icon {
+  color: grey;
+}
+.contacts {
+  font-size: 20px;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  /* Navigation Bar */
+  .nav-link {
+    text-align: left;
+    font-size: 20px;
+  }
+  /* Title Section */
+  .intro {
+    text-align: center;
+    font-size: 50px;
+  }
+  .profile-img {
+    border-radius: 20px;
+    width: 70%;
+  }
+  /* About Section */
+  .about-p {
+    font-size: 20px;
+  }
+  .about-img {
+    width: 140%;
+    margin-bottom: 20px;
+  }
+  /* Skills Section */
+  .skill-card {
+    margin-bottom: 20px;
+  }
+  .skill-card2 {
+    margin-bottom: 20px;
+  }
+  /* Projects Section */
+  .items {
+    margin: 0;
+  }
+  /* Contact me Section */
+  .contacts {
+    text-align: center;
+  }
+  form {
+    margin: 0 10%;
+  }
+  .copy-r {
+    text-align: center;
+    margin: 10px 0 0;
+  }
+  .hide {
+    visibility: visible;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  /* Navigation Bar */
+  .nav-link {
+    text-align: left;
+    font-size: 20px;
+  }
+  /* Title Section */
+  .intro {
+    text-align: center;
+    font-size: 50px;
+  }
+  .profile-img {
+    border-radius: 20px;
+    width: 50%;
+  }
+  /* About Section */
+  .about-p {
+    font-size: 20px;
+  }
+  .about-img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  /* Skills Section */
+  .skill-card {
+    margin-bottom: 20px;
+  }
+  .skill-card2 {
+    margin-bottom: 20px;
+  }
+  /* Projects Section */
+  .items {
+    margin: 0;
+  }
+  /* Contact me Section */
+  .contacts {
+    text-align: center;
+  }
+  form {
+    margin: 0 10%;
+  }
+  .copy-r {
+    text-align: center;
+    margin: 10px 0 0;
+  }
+  .hide {
+    visibility: visible;
+    margin-bottom: 20px;
+  }
+}
